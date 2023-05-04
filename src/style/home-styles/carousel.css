@@ -9,7 +9,7 @@
 
 .inner {
     white-space: nowrap;
-    transition: transform 0.3s;
+    transition: transform .99s;
 }
 
 .carousel-item {
@@ -21,8 +21,8 @@
 
 .carousel-item img {
     position: absolute;
-    height: 333px;
-    width: 300px
+    height: 400px;
+    width: 300px;
 }
 
 .carousel-item h1 {

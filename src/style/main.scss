@@ -1,9 +1,9 @@
-@import './navbar.scss';
-@import './buttons.css';
-@import './helpers.css';
-@import './carousel.css';
-@import './welcome.css';
+@import './home-styles/buttons.css';
+@import './home-styles/carousel.css';
+@import './home-styles/helpers.css';
+@import './home-styles/home-body.css';
+@import './home-styles/home-header.css';
+@import './home-styles/navbar.scss';
+@import './home-styles/welcome.css';
 
-@import './home-header.css';
-@import './home-body.css';
-@import './home-footer.css';
+@import './footer.css'

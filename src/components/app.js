@@ -1,26 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-import Icons from './icons';
+import Home from './home/home.js';
 
-import HomeHeading from './home-header';
-import HomeBody from './home-body';
-import HomeFooter from './home-footer';
-
-export default class App extends Component {
- constructor(props) {
-   super(props);
-            
-   Icons();
- }
-
-
-  render() {
+function App() {
     return (
       <div className='app'>
-        <HomeHeading />
-        <HomeBody />
-        <HomeFooter />
+        <Home />
       </div>
     );
   }
-}
+
+  export default App;

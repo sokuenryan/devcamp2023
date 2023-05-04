@@ -5,7 +5,7 @@ export default function HomeHeading() {
 
      return (
        <div className='home-header'>
-        <h2>Bloggr</h2>
+        <h2>Champions Exchange</h2>
          <Navbar />
        </div>
       );
